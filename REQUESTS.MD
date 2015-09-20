@@ -4,7 +4,7 @@ POST /register
     "password":"",
     "email":""
 }
-username, password, email decoded from JSON, password encrypted with MD5, saved to database
+username, password, email decoded from JSON, password encrypted, saved to database
 
 POST /login
 {
@@ -15,7 +15,7 @@ POST /login
     "email":""
     "password":""
 }
-Check username or email, password MD5 hash with DB
+Check username or email, password hash with DB
 
 POST /get-messages
 {
