@@ -19,18 +19,17 @@ Check username or email, password hash with DB
 
 POST /get-messages
 {
-AuthToken:””
+    "AuthToken":""
 }
 
 POST /get-message
 {
-  AuthToken:””
-
+    "AuthToken":""
 }
 
 POST /message
 {
-Authtoken:“”
-TargetId:””
+    "Authtoken":""
+    "TargetId":""
 
 }
